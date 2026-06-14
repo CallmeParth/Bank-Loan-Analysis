@@ -10,7 +10,7 @@ FROM bankdata
 GROUP BY loan_status
 
 A. BANK LOAN REPORT | SUMMARY
-/*KPIS*/
+/*KPI's*/
 /* 1. Total Applications*/
 SELECT COUNT(id) AS Total_Applications FROM bankdata
 
